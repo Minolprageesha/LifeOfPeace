@@ -1,0 +1,3 @@
+export const environment = {
+    file_access_url: "/api/public/file",
+};

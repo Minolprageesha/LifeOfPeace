@@ -1,0 +1,257 @@
+@media (min-width: 200px) and (max-device-width: 320px) {
+    .card-avatar {
+        background-color: #2A3042;
+        margin: auto;
+    }
+
+    .card-text-name {
+        font-size: 18px;
+        font-weight: 600;
+        text-align: center;
+        display: block;
+        color: #000000;
+    }
+
+    .card-text-email {
+        font-size: 16px;
+        font-weight: 500;
+        color: #000000;
+        text-align: center;
+        display: block;
+    }
+
+    .btn-profile {
+        background-color: #5D5AF2;
+        color: white;
+        margin: auto;
+        display: block;
+        margin-top: 10px !important;
+        border-color: #5D5AF2;
+    }
+
+    .newCustomerRes {
+        margin: auto;
+        display: flex;
+        margin-right: 0px;
+        float: none !important;
+        justify-content: center;
+    }
+
+    .btn-customer {
+        padding-left: 18px;
+        padding-right: 18px;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        float: right;
+        border-radius: 4px;
+        width: auto;
+        font-size: 12px;
+        background-color: #555172;
+        color: white;
+        border-color: #555172;
+    }
+
+    .btn-customer {
+        padding-left: 18px;
+        padding-right: 18px;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        float: right;
+        border-radius: 4px;
+        width: auto;
+        font-size: 12px;
+        margin-right: 0 !important;
+        background-color: #555172;
+        margin-top: 10px !important;
+        color: white;
+        border-color: #555172;
+    }
+
+    .input-search {
+        border-radius: 20px !important;
+        width: auto !important;
+        margin-bottom: 11px;
+        font-size: 14px;
+        float: right;
+        background-color: #EEEEEE;
+        border-color: #EEEEEE;
+        margin-right: 30px !important;
+        color: #2A3042;
+    }
+
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 770px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+    .card-avatar {
+        background-color: #2A3042;
+        margin: auto;
+    }
+
+    .card-text-name {
+        font-size: 18px;
+        font-weight: 600;
+        text-align: center;
+        display: block;
+        color: #000000;
+    }
+
+    .card-text-email {
+        font-size: 16px;
+        font-weight: 500;
+        color: #000000;
+        text-align: center;
+        display: block;
+    }
+
+    .btn-profile {
+        background-color: #5D5AF2;
+        color: white;
+        margin: auto !important;
+        display: block !important;
+        margin-top: 10px !important;
+        border-color: #5D5AF2;
+    }
+
+    .newCustomerRes {
+        margin: auto;
+        display: flex;
+        margin-right: 0px;
+        justify-content: center;
+        float: none !important;
+    }
+
+    .btn-customer {
+        padding-left: 18px;
+        padding-right: 18px;
+        padding-top: 6px;
+        margin-right: 0 !important;
+        padding-bottom: 6px;
+        float: right;
+        border-radius: 4px;
+        width: auto;
+        font-size: 12px;
+        margin-top: 10px !important;
+        background-color: #555172;
+        color: white;
+        border-color: #555172;
+    }
+
+    .input-search {
+        border-radius: 20px !important;
+        width: auto !important;
+        margin-bottom: 11px;
+        font-size: 14px;
+        float: right;
+        background-color: #EEEEEE;
+        border-color: #EEEEEE;
+        margin-right: 30px !important;
+        color: #2A3042;
+    }
+
+
+}
+
+
+@media (max-width: 992px) {
+    .signup-box {
+        /* max-width: 144px; */
+        width: 90% !important;
+        padding: 40px 20px;
+        margin: 5px auto;
+    }
+    .card-avatar {
+        background-color: #2A3042;
+        margin: auto;
+    }
+
+    .card-text-name {
+        font-size: 18px;
+        font-weight: 600;
+        text-align: center;
+        display: block;
+        color: #000000;
+    }
+
+    .card-text-email {
+        font-size: 16px;
+        font-weight: 500;
+        color: #000000;
+        text-align: center;
+        display: block;
+    }
+
+    .btn-profile {
+        background-color: #5D5AF2;
+        color: white;
+        margin: auto !important;
+        display: block !important;
+        margin-top: 10px !important;
+        border-color: #5D5AF2;
+    }
+
+    .newCustomerRes {
+        margin: auto;
+        display: flex;
+        margin-right: 0px;
+        justify-content: center;
+        float: none !important;
+    }
+
+    .btn-customer {
+        padding-left: 18px;
+        padding-right: 18px;
+        padding-top: 6px;
+        margin-right: 0 !important;
+        padding-bottom: 6px;
+        float: right;
+        border-radius: 4px;
+        width: auto;
+        font-size: 12px;
+        margin-top: 10px !important;
+        background-color: #555172;
+        color: white;
+        border-color: #555172;
+    }
+
+    .input-search {
+        border-radius: 20px !important;
+        width: auto !important;
+        margin-bottom: 11px;
+        font-size: 14px;
+        float: right;
+        background-color: #EEEEEE;
+        border-color: #EEEEEE;
+        margin-right: 30px !important;
+        color: #2A3042;
+    }
+    .borderDashboard {
+        border: 1px solid #C0C0C0;
+        background: #ddd;
+        border-radius: 10px;
+        margin-bottom: 14px;
+    }
+  
+}
+@media (max-width: 1200px) {
+
+    .modal-width {
+ 
+        max-width: 60% !important;
+      }
+}
+@media (max-width: 832px) {
+    .modal-width {
+        /* -webkit-transform: none;
+        transform: none; */
+        max-width: 55% !important;
+      }
+  
+}
+@media (max-width: 575px) {
+
+    .modal-width {
+        /* -webkit-transform: none;
+        transform: none; */
+        max-width: 100% !important;
+      }
+}
