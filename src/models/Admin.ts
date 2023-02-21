@@ -7,5 +7,4 @@ export interface Admin extends User {
 export interface CustomerAdminResponseModel {
    adminCount: number;
    userCount: number;
-   dealCount: number;
 }
