@@ -3,6 +3,7 @@ export enum RouteName {
   LOGIN = "/login",
   SIGNUP = "/signup",
   HOME_PAGE = "/home",
+  LEAD_FORM = "/lead_form",
   ADMIN_DASHBOARD = "/super-admin/dashboard",
   INACTIVE_USERS = "/super-admin/InactiveUsers",
   ADMIN_SETTINGS = "/super-admin/settings",

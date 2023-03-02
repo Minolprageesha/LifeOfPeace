@@ -448,3 +448,10 @@ input::-webkit-inner-spin-button {
 #date {
   border: none;
 }
+
+.login-page{
+  padding: 150px 150px 75px 150px;
+}
+.login-right{
+  padding: 0px 25px 12px 80px;
+}

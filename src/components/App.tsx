@@ -18,6 +18,7 @@ import { TrialDataContext } from "./context/TrialContext";
 import PendingAdmins from "./admin/Settings";
 import Settings from "./admin/Settings";
 import UserContext from "./context/UserContext";
+import LeadForm from "./common/leadForm";
 
 const App: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState<boolean>();
@@ -29,6 +30,9 @@ const App: React.FC = () => {
         <Route path={RouteName.LOGIN}>
           <Login />
         </Route>
+        <Route path={RouteName.LEAD_FORM}>
+          <LeadForm />
+        </Route>
         <Route path={RouteName.SIGNUP}>
           <Signup />
         </Route>
@@ -39,9 +43,9 @@ const App: React.FC = () => {
                 <Router>
                   <Switch>
                     <Route path="/super-admin">
-                        <VerifyRole allow={Role.SUPER_ADMIN}>
-                          <SystemAdminDashbordRouter />
-                        </VerifyRole>
+                      <VerifyRole allow={Role.SUPER_ADMIN}>
+                        <SystemAdminDashbordRouter />
+                      </VerifyRole>
                     </Route>
                   </Switch>
                 </Router>
@@ -65,7 +69,7 @@ const SystemAdminDashbordRouter: React.FC = () => {
         </SidePane>
         <Content>
           <Switch>
-        
+
           </Switch>
         </Content>
       </Router>
