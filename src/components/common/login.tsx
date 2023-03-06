@@ -24,7 +24,7 @@ const Login: React.FC = () => {
                     </div>
                     <div className="col-lg-5">
                         <div className="login-form-box">
-                            <h3 className="title">Sign in</h3>
+                            <h1 className="title">Sign in</h1>
                             <p>Don’t have an account? <a href="/signup">Sign up</a></p>
                             <form>
                                 <div className="form-group">
@@ -44,51 +44,12 @@ const Login: React.FC = () => {
                                     <a href="#" className="password-reset">Lost your password?</a>
                                 </div>
                                 <div className="form-group">
-                                    <button type="button" className="edu-btn btn-medium">Sign in <i className="icon-4"></i></button>
+                                    <button type="button" className="edu-btn btn-medium">Sign In <i className="icon-4"></i></button>
                                 </div>
                             </form>
                         </div>
                     </div>
                 </div>
-                {/* // <div className="login-page">
-        //     <div className="row  justify-content-center">
-        //         <div className="col-lg-6">
-        //             <img src={logo} alt="" />
-        //         </div>
-        //         <div className="col-lg-6">
-        //             <div className="row g-5 mb-20 justify-content-center login-right">
-        //                 <div className="col-lg-12">
-        //                     <div className="form-group">
-        //                         <label>Username*</label>
-        //                         <Input
-        //                             type="text"
-        //                             className="buyerInfoInput form-control"
-        //                             id="formrow-firstname-Input"
-        //                             maxLength={35}
-        //                             value={""}
-        //                             name="Username"
-        //                             required
-        //                         />
-        //                     </div>
-        //                 </div>
-        //                 <div className="col-lg-12">
-        //                     <div className="form-group">
-        //                         <label >Password*</label>
-        //                         <Input
-        //                             type="password"
-        //                             className="buyerInfoInput form-control"
-        //                             id="formrow-firstname-Input"
-        //                             value={ ""}
-        //                             name="Password"
-        //                             required
-        //                         />
-        //                     </div>
-        //                 </div>
-        //             </div>
-        //         </div>
-
-        //     </div>
-        // </div> */}
             </div>
         </section>
     );

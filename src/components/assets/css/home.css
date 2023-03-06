@@ -324,6 +324,105 @@ STYLESHEET INDEXING
     -webkit-transition: var(--transition);
     transition: var(--transition);
 }
+#flowBoxes {
+    margin:auto;
+    padding:20px;
+    min-width:700px;
+
+}
+#flowBoxes div {
+    display: inline-block;
+    position: relative;
+    height: 46px;
+    line-height: 46px;
+    padding: 0 50px;
+    font-size: 17px;
+    font-weight: 600;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+    background-color: white;
+}
+
+#flowBoxes div.right:after{
+    content: '';
+    border-top: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    width: 31px;
+    height: 31px;
+    position: absolute;
+    right: 0;
+    top: -1px;
+    background-color: white;
+    z-index: 150;
+    -webkit-transform: translate(10px,4px) rotate(45deg);
+    transform: translate(17px,8px) rotate(45deg);
+}
+
+#flowBoxes div.left:before{
+    content: '';
+    border-top: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    width: 31px;
+    height: 31px;
+    position: absolute;
+    left: 0;
+    top: -1px;
+    background-color: white;
+    z-index: 50;
+    -webkit-transform: translate(-10px,4px) rotate(45deg);
+    transform: translate(-16px,8px) rotate(45deg);
+}
+#flowBoxes .active{
+    background-color:#4FB3CD;
+    border: 1px solid #4FB3CD;
+    color:white;
+}
+#flowBoxes div.active:after{
+    background-color:#4FB3CD;
+    border: 1px solid #4FB3CD;
+}
+.signinup {
+    text-align: center;
+    border-radius: 5px;
+    display: inline-block;
+    height: 60px;
+    line-height: 62px;
+    color: #4D4D4D !important;
+    background: #FFFFFF;
+    padding: 0 30px;
+    font-size: 15px;
+    font-weight: 500 !important;
+    transition: 0.4s;
+    font-family: var(--font-secondary);
+    border: 1px solid #007C8245 !important;
+    border: 0 none;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+
+.padd{
+    padding: 0px 84px 19px 0px;
+}
+.signinup:hover{
+    text-align: center;
+    border-radius: 5px;
+    display: inline-block;
+    height: 60px;
+    line-height: 62px;
+    color: #4D4D4D !important;
+    background: #007C8245;
+    border: 1px solid #007C8245 !important;
+    padding: 0 30px;
+    font-size: 15px;
+    font-weight: 500 !important;
+    transition: 0.4s;
+    font-family: var(--font-secondary);
+    border: 0 none;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
 
 .bgImagePosition,
 .bg-image {
@@ -3786,6 +3885,50 @@ button.edu-btn {
     position: relative;
     z-index: 1;
 }
+
+
+a.edu-btn,
+button.edu-btn-next {
+    text-align: center;
+    display: inline-block;
+    height: 45px;
+    /* line-height: 62px; */
+    color: var(--edu-btn-color);
+    background: var(--color-primary);
+    padding: 0 30px;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+    font-family: var(--font-secondary);
+    border: 0 none;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+
+
+.edu-btn-back {
+    text-align: center;
+    border-radius: 10px !important;
+    display: inline-block;
+    height: 45px;
+    color: var(--color-primary);
+    border: 1px solid var(--color-primary) !important;
+    background-color: #FFFFFF !important;
+    padding: 0 30px;
+    font-size: 14px;
+    font-weight: 600;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+    font-family: var(--font-secondary);
+    border: 0 none;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+
 
 @media only screen and (max-width: 767px) {
 
@@ -10703,7 +10846,7 @@ only screen and (max-width: 1199px) {
     width: 100%;
     background: white;
     background: -webkit-linear-gradient(top, rgba(51, 51, 51, 0.01) 25%, rgba(51, 51, 51, 0.7) 100%);
-    background: linear-gradient(top, rgba(51, 51, 51, 0.01) 25%, rgba(51, 51, 51, 0.7) 100%);
+    background: radial-gradient(top, rgba(51, 51, 51, 0.01) 25%, rgba(51, 51, 51, 0.7) 100%);
     position: absolute;
     top: 0;
     bottom: 0;
@@ -10797,7 +10940,7 @@ only screen and (max-width: 1199px) {
 
 .edu-course-area .course-style-13 .inner .thumbnail::after {
     background: -webkit-linear-gradient(top, rgba(51, 51, 51, 0.1) 49%, #333333 100%);
-    background: linear-gradient(top, rgba(51, 51, 51, 0.1) 49%, #333333 100%);
+    background: radial-gradient(top, rgba(51, 51, 51, 0.1) 49%, #333333 100%);
 }
 
 .edu-course-area .course-style-13 .inner .thumbnail .course-meta li {
@@ -17426,9 +17569,9 @@ only screen and (max-width: 767px) {
 }
 
 .colorchangeLog {
-    background-color: #2d4366 !important;
+    /* background-color: #2d4366 !important; */
     color: white !important;
-    border-radius: 5px;
+    /* border-radius: 5px; */
     display: flex !important;
     align-items: center;
 }
@@ -28345,7 +28488,7 @@ blockquote .author {
 }
 
 .section-gap-equal {
-    padding: 120px 0;
+    padding: 174px 0;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {

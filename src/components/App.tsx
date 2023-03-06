@@ -26,11 +26,11 @@ const App: React.FC = () => {
   return (
     <Router>
       <Switch>
-
         <Route path={RouteName.LOGIN}>
           <Login />
         </Route>
         <Route path={RouteName.LEAD_FORM}>
+          <NavBarMain />
           <LeadForm />
         </Route>
         <Route path={RouteName.SIGNUP}>

@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from "react";
 import { useHistory, } from "react-router-dom";
-import logo from "../../components/assets/images/login.svg";
+import logo from "../../components/assets/images/cover2.svg";
 import "../assets/css/home.css";
 import "../assets/css/bootstrap.min.css";
 
@@ -14,8 +14,68 @@ const LeadForm: React.FC = () => {
     const firstComponent = () => {
         return (
             <div>
-                <h4 className="fs-20 ls-sm">1.How often have you been bothered by feeling down, depressed, irritable, or hopeless over the
-                    last two weeks?</h4>
+                <div id="flowBoxes" className="mb-10">
+                    <div className="right active">STEP 01</div>
+                    <div className="left right">STEP 02</div>
+                    <div className="left right">STEP 03</div>
+                    <div className="left">STEP 04</div>
+                </div>
+                <div className="mb-5">
+                    <h4 className="fs-20 ls-sm mb-5">1.How often have you been bothered by feeling down, depressed, irritable, or hopeless over the
+                        last two weeks?</h4>
+                    <ul className="header-action mb-15">
+                        <li className="header-btn">
+                            <button className="signinup">Not At all</button>
+                        </li>
+                        <li className="header-btn">
+                            <button className="signinup">Not At all</button>
+                        </li>
+                        <li className="header-btn">
+                            <button className="signinup">Not At all</button>
+                        </li>
+                        <li className="header-btn">
+                            <button className="signinup">Not At all</button>
+                        </li>
+                    </ul>
+                </div>
+
+                <div className="mb-5">
+                    <h4 className="fs-20 ls-sm mb-5">2.How often have you been bothered by feeling down, depressed, irritable, or hopeless over the
+                        last two weeks?</h4>
+                    <ul className="header-action mb-15">
+                        <li className="header-btn">
+                            <button className="signinup">Not At all</button>
+                        </li>
+                        <li className="header-btn">
+                            <button className="signinup">Not At all</button>
+                        </li>
+                        <li className="header-btn">
+                            <button className="signinup">Not At all</button>
+                        </li>
+                        <li className="header-btn">
+                            <button className="signinup">Not At all</button>
+                        </li>
+                    </ul>
+                </div>
+
+                <div className="mb-5">
+                    <h4 className="fs-20 ls-sm mb-5">3.How often have you been bothered by feeling down, depressed, irritable, or hopeless over the
+                        last two weeks?</h4>
+                    <ul className="header-action mb-15">
+                        <li className="header-btn">
+                            <button className="signinup">Not At all</button>
+                        </li>
+                        <li className="header-btn">
+                            <button className="signinup">Not At all</button>
+                        </li>
+                        <li className="header-btn">
+                            <button className="signinup">Not At all</button>
+                        </li>
+                        <li className="header-btn">
+                            <button className="signinup">Not At all</button>
+                        </li>
+                    </ul>
+                </div>
             </div >
         );
     };
@@ -25,24 +85,215 @@ const LeadForm: React.FC = () => {
     const secondComponent = () => {
         return (
             <div>
-                <h3 className="title mb-20">Account Information</h3>
-            </div>
+                <div id="flowBoxes" className="mb-10">
+                    <div className="right">STEP 01</div>
+                    <div className="left right active">STEP 02</div>
+                    <div className="left right">STEP 03</div>
+                    <div className="left">STEP 04</div>
+                </div>
+                <div className="mb-5">
+                    <h4 className="fs-20 ls-sm mb-5">1.How often have you been bothered by feeling down, depressed, irritable, or hopeless over the
+                        last two weeks?</h4>
+                    <ul className="header-action mb-15">
+                        <li className="header-btn">
+                            <button className="signinup">Not At all</button>
+                        </li>
+                        <li className="header-btn">
+                            <button className="signinup">Not At all</button>
+                        </li>
+                        <li className="header-btn">
+                            <button className="signinup">Not At all</button>
+                        </li>
+                        <li className="header-btn">
+                            <button className="signinup">Not At all</button>
+                        </li>
+                    </ul>
+                </div>
+
+                <div className="mb-5">
+                    <h4 className="fs-20 ls-sm mb-5">2.How often have you been bothered by feeling down, depressed, irritable, or hopeless over the
+                        last two weeks?</h4>
+                    <ul className="header-action mb-15">
+                        <li className="header-btn">
+                            <button className="signinup">Not At all</button>
+                        </li>
+                        <li className="header-btn">
+                            <button className="signinup">Not At all</button>
+                        </li>
+                        <li className="header-btn">
+                            <button className="signinup">Not At all</button>
+                        </li>
+                        <li className="header-btn">
+                            <button className="signinup">Not At all</button>
+                        </li>
+                    </ul>
+                </div>
+
+                <div className="mb-5">
+                    <h4 className="fs-20 ls-sm mb-5">3.How often have you been bothered by feeling down, depressed, irritable, or hopeless over the
+                        last two weeks?</h4>
+                    <ul className="header-action mb-15">
+                        <li className="header-btn">
+                            <button className="signinup">Not At all</button>
+                        </li>
+                        <li className="header-btn">
+                            <button className="signinup">Not At all</button>
+                        </li>
+                        <li className="header-btn">
+                            <button className="signinup">Not At all</button>
+                        </li>
+                        <li className="header-btn">
+                            <button className="signinup">Not At all</button>
+                        </li>
+                    </ul>
+                </div>
+            </div >
         );
     };
 
 
+    const fourthComponent = () => {
+        return (
+            <div>
+                <div id="flowBoxes" className="mb-10">
+                    <div className="right ">STEP 01</div>
+                    <div className="left right">STEP 02</div>
+                    <div className="left right active">STEP 03</div>
+                    <div className="left">STEP 04</div>
+                </div>
+                <div className="mb-5">
+                    <h4 className="fs-20 ls-sm mb-5">1.How often have you been bothered by feeling down, depressed, irritable, or hopeless over the
+                        last two weeks?</h4>
+                    <ul className="header-action mb-15">
+                        <li className="header-btn">
+                            <button className="signinup">Not At all</button>
+                        </li>
+                        <li className="header-btn">
+                            <button className="signinup">Not At all</button>
+                        </li>
+                        <li className="header-btn">
+                            <button className="signinup">Not At all</button>
+                        </li>
+                        <li className="header-btn">
+                            <button className="signinup">Not At all</button>
+                        </li>
+                    </ul>
+                </div>
+
+                <div className="mb-5">
+                    <h4 className="fs-20 ls-sm mb-5">2.How often have you been bothered by feeling down, depressed, irritable, or hopeless over the
+                        last two weeks?</h4>
+                    <ul className="header-action mb-15">
+                        <li className="header-btn">
+                            <button className="signinup">Not At all</button>
+                        </li>
+                        <li className="header-btn">
+                            <button className="signinup">Not At all</button>
+                        </li>
+                        <li className="header-btn">
+                            <button className="signinup">Not At all</button>
+                        </li>
+                        <li className="header-btn">
+                            <button className="signinup">Not At all</button>
+                        </li>
+                    </ul>
+                </div>
+
+                <div className="mb-5">
+                    <h4 className="fs-20 ls-sm mb-5">3.How often have you been bothered by feeling down, depressed, irritable, or hopeless over the
+                        last two weeks?</h4>
+                    <ul className="header-action mb-15">
+                        <li className="header-btn">
+                            <button className="signinup">Not At all</button>
+                        </li>
+                        <li className="header-btn">
+                            <button className="signinup">Not At all</button>
+                        </li>
+                        <li className="header-btn">
+                            <button className="signinup">Not At all</button>
+                        </li>
+                        <li className="header-btn">
+                            <button className="signinup">Not At all</button>
+                        </li>
+                    </ul>
+                </div>
+            </div >
+        );
+    };
+
     const finalComponent = () => {
         return (
             <div>
-                <h3 className="title mb-20">Profile Information</h3>
+                <div id="flowBoxes" className="mb-10">
+                    <div className="right ">STEP 01</div>
+                    <div className="left right">STEP 02</div>
+                    <div className="left right">STEP 03</div>
+                    <div className="left active">STEP 04</div>
+                </div>
+                <div className="mb-5">
+                    <h4 className="fs-20 ls-sm mb-5">1.How often have you been bothered by feeling down, depressed, irritable, or hopeless over the
+                        last two weeks?</h4>
+                    <ul className="header-action mb-15">
+                        <li className="header-btn">
+                            <button className="signinup">Not At all</button>
+                        </li>
+                        <li className="header-btn">
+                            <button className="signinup">Not At all</button>
+                        </li>
+                        <li className="header-btn">
+                            <button className="signinup">Not At all</button>
+                        </li>
+                        <li className="header-btn">
+                            <button className="signinup">Not At all</button>
+                        </li>
+                    </ul>
+                </div>
 
-            </div>
+                <div className="mb-5">
+                    <h4 className="fs-20 ls-sm mb-5">2.How often have you been bothered by feeling down, depressed, irritable, or hopeless over the
+                        last two weeks?</h4>
+                    <ul className="header-action mb-15">
+                        <li className="header-btn">
+                            <button className="signinup">Not At all</button>
+                        </li>
+                        <li className="header-btn">
+                            <button className="signinup">Not At all</button>
+                        </li>
+                        <li className="header-btn">
+                            <button className="signinup">Not At all</button>
+                        </li>
+                        <li className="header-btn">
+                            <button className="signinup">Not At all</button>
+                        </li>
+                    </ul>
+                </div>
+
+                <div className="mb-5">
+                    <h4 className="fs-20 ls-sm mb-5">3.How often have you been bothered by feeling down, depressed, irritable, or hopeless over the
+                        last two weeks?</h4>
+                    <ul className="header-action mb-15">
+                        <li className="header-btn">
+                            <button className="signinup">Not At all</button>
+                        </li>
+                        <li className="header-btn">
+                            <button className="signinup">Not At all</button>
+                        </li>
+                        <li className="header-btn">
+                            <button className="signinup">Not At all</button>
+                        </li>
+                        <li className="header-btn">
+                            <button className="signinup">Not At all</button>
+                        </li>
+                    </ul>
+                </div>
+            </div >
         );
     };
 
     const [steps, setSteps] = useState([
         { key: "firstStep", label: "STEP", isDone: true, component: firstComponent },
         { key: "secondStep", label: "STEP", isDone: false, component: secondComponent },
+        { key: "fourthStep", label: "STEP", isDone: false, component: fourthComponent },
         { key: "finalStep", label: "STEP", isDone: false, component: finalComponent },
     ]);
 
@@ -52,6 +303,20 @@ const LeadForm: React.FC = () => {
     const history = useHistory();
 
     const handleNext = () => {
+        if (steps[steps.length - 4].key === activeStep.key) {
+
+
+            const index = steps.findIndex((x) => x.key === activeStep.key);
+            setSteps((prevStep) =>
+                prevStep.map((x) => {
+                    if (x.key === activeStep.key) x.isDone = true;
+                    return x;
+                })
+            );
+            setActiveStep(steps[index + 1]);
+            return;
+        }
+
         if (steps[steps.length - 3].key === activeStep.key) {
 
 
@@ -106,32 +371,32 @@ const LeadForm: React.FC = () => {
             <section className="account-page-area section-gap-equal1">
                 <div className="containerLead position-relative">
                     <div className="row g-5 justify-content-center">
-                        <div className="col-lg-8">
-                            <div className="App">
+                        <div className="col-lg-7">
+                            <div className="App padd">
                                 <div className="box">
                                     <div className="step-component">{activeStep.component()}</div>
-                                    <div className="btn-component">
+                                    <div className="btn-component flex float-right">
                                         {steps[0].key !== activeStep.key && (
-                                            <button className="btn colorchangeback back-btn btn-medium" onClick={handleBack}>
-                                                Back
+                                            <button className="colorchangeCancel mr-10  edu-btn-back btn-medium" onClick={handleBack}>
+                                                Previous
                                             </button>
                                         )}
 
                                         <button
-                                            className={steps[steps.length - 1].key !== activeStep.key ? "btn colorchangeLog leadMargin edu-btn btn-medium" : "btn colorchangeLog edu-btn btn-medium"}
-                                            value={steps[steps.length - 1].key !== activeStep.key ? "Next" : "Get"}
+                                            className={steps[steps.length - 1].key !== activeStep.key ? "btn colorchangeLog  edu-btn-next btn-medium" : "btn colorchangeLog  edu-btn-next btn-medium"}
+                                            value={steps[steps.length - 1].key !== activeStep.key ? "Next" : "Proceed"}
                                             onClick={handleNext}
                                         >
                                             {" "}
-                                            <div>  {steps[steps.length - 1].key !== activeStep.key ? "Next" : "Submit and Check Out"} <i className="dw dw-right-arrow right_arrow_icon"></i>{" "}</div>
+                                            <div>  {steps[steps.length - 1].key !== activeStep.key ? "Next" : "Proceed"} <i className="dw dw-right-arrow  right_arrow_icon"></i>{" "}</div>
                                         </button>
                                     </div>
                                 </div>
                             </div>
                         </div>
 
-                        <div className="col-lg-4">
-                            <a href="/home"><img src={logo} alt="" /></a>
+                        <div className="col-lg-5">
+                            <a href="/home" className="mt-50"><img src={logo} alt="" /></a>
                         </div>
                     </div>
                 </div>
