@@ -19,6 +19,7 @@ import PendingAdmins from "./admin/Settings";
 import Settings from "./admin/Settings";
 import UserContext from "./context/UserContext";
 import LeadForm from "./common/leadForm";
+import FinalResultPage from "./common/finalResault";
 
 const App: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState<boolean>();
@@ -32,6 +33,10 @@ const App: React.FC = () => {
         <Route path={RouteName.LEAD_FORM}>
           <NavBarMain />
           <LeadForm />
+        </Route>
+        <Route path={RouteName.RESULT}>
+          <NavBarMain />
+          <FinalResultPage />
         </Route>
         <Route path={RouteName.SIGNUP}>
           <Signup />

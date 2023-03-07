@@ -17632,6 +17632,10 @@ only screen and (max-width: 767px) {
     height: 50px;
 }
 
+.inputFile {
+    border: none !important;
+    height: 50px;
+}
 .login-form-box .form-group .edu-btn {
     width: 100%;
 }
@@ -28774,7 +28778,7 @@ blockquote .author {
 /*-------------------------
   Dark Mode CSS Starts Here
 ---------------------------*/
-body.dark-mode {
+/* body.dark-mode {
     background-color: var(--dark-color-bg-body);
 }
 
@@ -29307,93 +29311,10 @@ body.dark-mode {
 }
 
 .dark-mode {
-    /*-------------------
-    About Dark Styles
-    ---------------------*/
-    /*-------------------
-    Breadcrumb Dark Styles
-    ---------------------*/
-    /*-------------------
-    Brand Dark Styles
-    ---------------------*/
-    /*-------------------
-    Blog Dark Styles
-    ---------------------*/
-    /*-------------------
-    Call To Action Dark Styles
-    ---------------------*/
-    /*-------------------
-    Categorie Dark Styles
-    ---------------------*/
-    /*-------------------------
-        Counterup Styles  
-    --------------------------*/
-    /*-------------------------
-        Landing Page Dark Styles  
-    --------------------------*/
-    /*-------------------------
-        Course Styles  
-    --------------------------*/
-    /*-------------------------
-        Campus Styles  
-    --------------------------*/
-    /*-------------------------
-        Copyright Styles  
-    --------------------------*/
-    /*-------------------
-    Event Dark Styles
-    ---------------------*/
-    /*-------------------
-    Features Dark Styles
-    ---------------------*/
-    /*-------------------
-    FAQ Dark Styles
-    ---------------------*/
-    /*-------------------
-    Footer Dark Styles
-    ---------------------*/
-    /*-------------------
-    Header Dark Styles
-    ---------------------*/
-    /*-------------------
-    Hero Banner Dark Styles
-    ---------------------*/
-    /*-------------------
-    Instagram Dark Styles
-    ---------------------*/
-    /*-------------------
-    Shop Dark Styles
-    ---------------------*/
-    /*-------------------
-    Team Dark Styles
-    ---------------------*/
-    /*-------------------
-    Testimonial Dark Styles
-    ---------------------*/
-    /*-------------------
-    Video Dark Styles
-    ---------------------*/
-    /*--------------------------
-    why-choose-us Dark Styles
-    ----------------------------*/
-    /*----------------------------------------
-    Coming Soon/Gallery/Pagination Dark Styles
-    ------------------------------------------*/
-    /*-------------------
-    Section Dark Styles
-    ---------------------*/
-    /*-------------------
-    Button Dark Styles
-    ---------------------*/
-    /*-------------------
-    Form Dark Styles
-    ---------------------*/
-    /*-------------------
-    Swiper Slider Dark Styles
-    ---------------------*/
-}
 
-.dark-mode p {
+} */
+
+/* .dark-mode p {
     color: var(--color-title);
 }
 
@@ -34008,10 +33929,10 @@ html[dir="rtl"] .contact-me .thumbnail {
     html[dir="rtl"] .contact-me .thumbnail {
         margin-left: 0;
     }
-}
+} */
 
 
-
+/* 
 html[dir="rtl"] .rn-progress-parent {
     right: inherit;
     left: 30px;
@@ -34063,4 +33984,4 @@ html[dir="rtl"] .swiper-testimonial-slider-wrapper .swiper-slide.swiper-slide-vi
     margin-left: 36px;
     margin-right: 40px;
     box-shadow: 70px 0px 50px 0px rgba(26, 46, 85, 0.1);
-}
+} */

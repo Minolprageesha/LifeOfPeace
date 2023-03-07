@@ -347,6 +347,7 @@ const LeadForm: React.FC = () => {
         }
 
         if (steps[steps.length - 1].key === activeStep.key) {
+            history.push("/result");
             return;
         }
     };

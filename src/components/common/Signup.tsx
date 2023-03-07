@@ -48,15 +48,17 @@ const Signup: React.FC = () => {
                                     <input type="password" name="current-log-password" id="current-log-password" placeholder="Password" />
                                     <span className="password-show"><i className="icon-76"></i></span>
                                 </div>
-                                <div className="form-group chekbox-area">
-                                    <div className="edu-form-check">
-                                        <input type="checkbox" id="terms-condition" />
+                        
+                                <div className="form-group">
+                                    <div >
+                                        <input type="checkbox" />
                                         <label >I agree the User Agreement and <a href="/">Terms & Condition.</a> </label>
                                     </div>
                                 </div>
                                 <div className="form-group">
                                     <button type="button" className="edu-btn btn-medium">Sign Up <i className="icon-4"></i></button>
                                 </div>
+                                <input type="checkbox" className="form-group"/>
                             </form>
                         </div>
                     </div>
