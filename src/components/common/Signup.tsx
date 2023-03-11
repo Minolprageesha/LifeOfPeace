@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useContext } from "react";
+import React from "react";
 import "../../components/assets/css/core.css";
 import "../../components/assets/css/style12.css";
 import "../../components/assets/css/style1.css";
@@ -7,7 +7,6 @@ import { toast } from "react-toastify";
 toast.configure();
 import "react-toastify/dist/ReactToastify.css";
 import logo from "../../components/assets/images/login.svg";
-import { Input } from "reactstrap";
 
 const Signup: React.FC = () => {
 

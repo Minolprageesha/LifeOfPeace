@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useContext } from "react";
+import React, { useState } from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { RouteName } from "../RouteName";
 import Auth from "./common/Auth";
@@ -12,14 +12,10 @@ import Signup from "./common/Signup";
 import AdminSideMenu from "./admin/AdminSideBar";
 import Login from "./common/login";
 import VerifyRole from "./common/VerifyRole";
-import { environment } from "./../environment/environment";
 import NavBarMain from "./common/NavBarMain";
-import { TrialDataContext } from "./context/TrialContext";
-import PendingAdmins from "./admin/Settings";
-import Settings from "./admin/Settings";
-import UserContext from "./context/UserContext";
 import LeadForm from "./common/leadForm";
 import FinalResultPage from "./common/finalResault";
+import DetailsPage from "./common/Details";
 
 const App: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState<boolean>();
@@ -40,6 +36,9 @@ const App: React.FC = () => {
         </Route>
         <Route path={RouteName.SIGNUP}>
           <Signup />
+        </Route>
+        <Route path={RouteName.DETAILS}>
+          <DetailsPage />
         </Route>
         <Route path="/">
           <Auth>
@@ -73,9 +72,7 @@ const SystemAdminDashbordRouter: React.FC = () => {
           <AdminSideMenu />
         </SidePane>
         <Content>
-          <Switch>
-
-          </Switch>
+          <Switch></Switch>
         </Content>
       </Router>
     </ContentLayout>

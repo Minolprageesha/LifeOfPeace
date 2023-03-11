@@ -1,7 +1,5 @@
 import React, { useContext } from "react";
 import { MenuContext } from "../context/MenuContext";
-import { useHistory } from "react-router-dom";
-import UserContext from "../context/UserContext";
 import "../assets/css/style1.css";
 import "../assets/css/core.css";
 import "../assets/css/icon-font.css";

@@ -5,6 +5,7 @@ export enum RouteName {
   HOME_PAGE = "/home",
   LEAD_FORM = "/lead_form",
   RESULT = "/result",
+  DETAILS = "/details",
   ADMIN_DASHBOARD = "/super-admin/dashboard",
   INACTIVE_USERS = "/super-admin/InactiveUsers",
   ADMIN_SETTINGS = "/super-admin/settings",

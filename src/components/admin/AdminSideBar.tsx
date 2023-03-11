@@ -11,6 +11,8 @@ import UserContext from "../context/UserContext";
 const AdminSideMenu: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useContext(MenuContext);
   const [user, setUser] = useContext(UserContext);
+  console.log(user);
+  
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   }

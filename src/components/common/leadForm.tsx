@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from "react";
+import React, { useState, useRef } from "react";
 import { useHistory, } from "react-router-dom";
 import logo from "../../components/assets/images/cover2.svg";
 import "../assets/css/home.css";
@@ -7,9 +7,11 @@ import "../assets/css/bootstrap.min.css";
 const LeadForm: React.FC = () => {
 
     const [leadData, setLeadData] = useState({});
-    const [startDate, setStartDate] = useState(new Date());
     const leadDataRef = useRef<any>();
     leadDataRef.current = leadData;
+
+    console.log(setLeadData);
+    
 
     const firstComponent = () => {
         return (

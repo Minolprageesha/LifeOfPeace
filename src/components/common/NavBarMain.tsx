@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React from "react";
 import "../assets/css/home.css";
 import "../assets/css/core.css";
 import "../assets/css/bootstrap.min.css";
