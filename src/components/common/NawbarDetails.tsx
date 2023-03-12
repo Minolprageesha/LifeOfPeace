@@ -3,7 +3,7 @@ import "../assets/css/home.css";
 import "../assets/css/core.css";
 import "../assets/css/bootstrap.min.css";
 
-const NavBarMain: React.FC = () => {
+const NavBarDashbord: React.FC = () => {
 
     return (
         <div className="content-wrapper">
@@ -17,12 +17,13 @@ const NavBarMain: React.FC = () => {
                             </a>
                         </div>
                         <div className="navbar-other flex ms-lg-4 aliganItem">
-                            <div className="btn-main "> Home</div>
+                            <div className="btn-main "> Details</div>
+                            <div className="btn-sub "> Chat</div>
+                            <div className="btn-sub "> Exercise</div>
                             <div className="btn-sub "> Blog</div>
-                            <div className="btn-sub "> FAQ</div>
-                            <div className="btn-sub "> Contact Us</div>
+        
                             <div className="form-group">
-                                <button type="button" className="edu-btn btn-medium">Sign in <i className="icon-4"></i></button>
+                                <button type="button" className="edu-btn btn-medium">Log Out <i className="icon-4"></i></button>
                             </div>
 
                         </div>
@@ -40,4 +41,4 @@ const NavBarMain: React.FC = () => {
     );
 };
 
-export default NavBarMain;
+export default NavBarDashbord;
