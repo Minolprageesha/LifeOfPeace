@@ -1,5 +1,5 @@
 import classes from "./Card.module.css";
-import React, { useState } from "react";
+import React from "react";
 
 type Props = {
   imageUrl: string;

@@ -13,8 +13,7 @@ const SubcribedUsers: React.FC<Props> = (props) => {
 
   return (
     <div className={classes.main}>
-      <h1>Subcribed docters</h1>
-      <div className={classes.docters}>
+      <div className={classes.doctors}>
         {doctors.length > 0 &&
           doctors.map((doctor, index) => (
             <div key={index} onClick={() => selectedDocterHandler(index)}>

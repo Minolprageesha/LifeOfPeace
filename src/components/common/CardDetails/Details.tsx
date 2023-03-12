@@ -1,7 +1,7 @@
 
 import { UserCard } from "../../../models/Card";
 import classes from "./Details.module.css";
-import React, { useState } from "react";
+import React from "react";
 type Props = {
   Doctor: UserCard;
 };
